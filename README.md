@@ -8,6 +8,12 @@ A responsive restaurant website with online booking & digital menu.
 - Contact form
 
 ## Technologies Used
+
 - HTML, CSS, JavaScript
 - Flask (Backend)
 - MySQL (Database)
+
+
+## follow the steps to set backend
+cd backend
+node server.js
