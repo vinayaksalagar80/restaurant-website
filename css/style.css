@@ -1,0 +1,22 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: system-ui, Arial, sans-serif; color: #222; }
+
+.nav { display: flex; gap: 1rem; padding: 1rem; background: #ff5733; }
+.nav a { color: #fff; text-decoration: none; }
+.nav a.active { text-decoration: underline; }
+
+.hero { padding: 6rem 1rem; text-align: center; background: #fff4ef; }
+.hero .btn { display: inline-block; margin-top: 1rem; padding: 0.7rem 1.2rem; background: #ff5733; color: #fff; border-radius: 8px; }
+
+.container { max-width: 960px; margin: 2rem auto; padding: 0 1rem; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+.card { padding: 1rem; background: #f7f7f7; border-radius: 10px; }
+
+.form { display: grid; gap: 0.8rem; max-width: 480px; }
+.form input, .form button, #search { padding: 0.7rem; border: 1px solid #ddd; border-radius: 8px; }
+.form button { background: #ff5733; color: #fff; border: none; cursor: pointer; }
+.msg { margin-top: 1rem; font-weight: 600; }
+
+@media (max-width: 600px) {
+  .nav { flex-wrap: wrap; }
+}
